@@ -23,3 +23,23 @@ npm start
 
 It will run Application on default browser with this link.
 "https://localhost:3000/"
+
+
+#Login with Username & Password.
+
+Use this Username or Password
+
+Username= admin
+
+Password= admin
+
+#After Login.
+
+Display you Welcome Home Screen.
+
+#Search.
+
+Select Country  for Search Details.
+
+
+
