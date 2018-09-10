@@ -1,7 +1,13 @@
 # ReactAssignment
 This Repository created for React Assignment which tells about proves of concept in User Interface Development with React JS.    
 
-#Start .
+#Start.
+
+Click in Clone or Download option.
+
+Download ZIP file.Unzipped application.
+
+#Otherwise,
 
 Copy  github link for use code.
 Clone with git clone command.
@@ -9,7 +15,7 @@ Clone with git clone command.
 #Example: 
 git clone https://github.com/abhilash-Pandey94/ReactAssignment/
 
-#After Clone.
+#After Clone or Download.
 
 Install all the dependency by using "npm" command given below:
 npm install --save
