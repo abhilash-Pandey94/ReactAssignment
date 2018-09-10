@@ -46,13 +46,22 @@ class HomePage extends React.Component {
                 </section>
                 <section>  
                    <center style={{"background-color":"grey","height":"50px","padding":"10px"}}> <h5>Display Common Country Information.</h5></center>
-                    <ul className="jumbotron">  
-                        <li>Country Name:{this.state.details.name}</li>
-                        <li>Capital:     {this.state.details.capital}</li>
-                        <li>Population:  {this.state.details.population}</li>
-                        <li>Region:      {this.state.details.region}</li>
-                    </ul>         
-                </section>
+                   <section>
+                       <table><thead style={{"margin":"10px"}}>
+                           <th>Country Name</th>
+                           <th>Capital</th>
+                           <th>Population</th>
+                           <th>Region</th>
+                           </thead >
+                           <tr>
+                               <td>{this.state.details.name}</td>
+                               <td>{this.state.details.capital}</td>
+                               <td>{this.state.details.population}</td>
+                               <td>{this.state.details.region}</td>
+                           </tr>
+                       </table>
+                     </section>
+                   </section>
             </section>
         );
     }
