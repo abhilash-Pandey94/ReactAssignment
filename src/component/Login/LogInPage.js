@@ -26,7 +26,7 @@ class LogInPage extends React.Component {
         //Diplay logging Form if isLogin "true"...
         if (this.state.isLogin) {
             return (
-                <section style={{ "border-style": "solid", "border-color": "coral", }} className="jumbotron">
+                <section className="sec jumbotron">
                     <b>
                         <section>
                             <article>Enter UserName or Password. </article>
@@ -36,15 +36,15 @@ class LogInPage extends React.Component {
                                 type="text"
                                 placeholder=" enter username"
                                 value={this.state.Username}
-                                style={{ "margin": "px", "border-radius": "10px", "padding": "7px" }}
+                                className="input"
                                 onChange={(e) => { this.setState({ Username: e.target.value }) }}
                             /><br />
                             Password:   <input
                                 type="password"
                                 placeholder=" enter password"
+                                className="input"
                                 value={this.state.Password}
-                                style={{ "margin": "6px", "border-radius": "10px", "padding": "7px" }}
-                                onChange={(e) => { this.setState({ Password: e.target.value }) }}
+                                 onChange={(e) => { this.setState({ Password: e.target.value }) }}
                             /><br />
                             <button className="btn btn-primary" onClick={this._onClick}>LogIn</button>
                         </section>

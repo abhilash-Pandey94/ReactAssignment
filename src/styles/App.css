@@ -1,8 +1,8 @@
+/****************************** HOME PAGE TABLE STYLE *********************************************/
 th{
     padding:20px;
     color: white;
     background-color: black;
-
 }
 tr{
     padding: 20px;
@@ -11,5 +11,15 @@ tr{
     color: white;
     text-align: center;
     height: 25px;
+}
 
+/****************************** Login PAGE STYLE *********************************************/
+.input{
+    border-radius:10px;
+    margin:6px;
+}
+.sec{
+    border-style:solid;
+    border-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
 }
